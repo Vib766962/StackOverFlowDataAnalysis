@@ -1,0 +1,572 @@
+Q1.Find the average age of developers when they wrote their first line of code
+
+Average age is:  15.356114663454113 
+
+Q2.Deduce the percentage of developers who know python in each country
+
+{
+  "El Salvador": 100.0,
+  "Lesotho": 100.0,
+  "Venezuela, Bolivarian Republic of...": 98.33333333333333,
+  "Ghana": 96.15384615384616,
+  "Brazil": 98.4137475214805,
+  "Cape Verde": 100.0,
+  "China": 95.68181818181817,
+  "Bosnia and Herzegovina": 98.59154929577466,
+  "Denmark": 98.44097995545657,
+  "United Republic of Tanzania": 100.0,
+  "The former Yugoslav Republic of Macedonia": 100.0,
+  "Sri Lanka": 99.57983193277312,
+  "Georgia": 94.91525423728814,
+  "Chile": 97.98657718120806,
+  "Maldives": 100.0,
+  "Taiwan": 99.20634920634922,
+  "Ireland": 98.17232375979113,
+  "Burkina Faso": 100.0,
+  "Peru": 98.9010989010989,
+  "Dominican Republic": 98.63013698630137,
+  "Czech Republic": 98.17184643510055,
+  "Singapore": 96.7741935483871,
+  "Jordan": 97.87234042553192,
+  "Sudan": 100.0,
+  "Libyan Arab Jamahiriya": 100.0,
+  "Algeria": 98.21428571428571,
+  "Malawi": 100.0,
+  "Guatemala": 98.21428571428571,
+  "Philippines": 97.53086419753086,
+  "Sierra Leone": 50.0,
+  "Burundi": 100.0,
+  "Brunei Darussalam": 100.0,
+  "Somalia": 85.71428571428571,
+  "Iraq": 89.47368421052632,
+  "Albania": 97.01492537313433,
+  "Democratic Republic of the Congo": 100.0,
+  "Luxembourg": 100.0,
+  "Austria": 98.62306368330465,
+  "South Africa": 98.96049896049897,
+  "Romania": 98.18840579710145,
+  "Mexico": 98.78542510121457,
+  "Madagascar": 87.5,
+  "Egypt": 98.99497487437185,
+  "Zimbabwe": 100.0,
+  "Slovakia": 99.41520467836257,
+  "Turkey": 98.4779299847793,
+  "Tunisia": 97.26027397260275,
+  "Namibia": 100.0,
+  "Mozambique": 100.0,
+  "Cyprus": 95.74468085106383,
+  "Republic of Moldova": 100.0,
+  "Congo, Republic of the...": 100.0,
+  "Swaziland": 100.0,
+  "Guyana": 100.0,
+  "Croatia": 98.96907216494846,
+  "Nigeria": 98.05194805194806,
+  "Cuba": 96.15384615384616,
+  "Botswana": 100.0,
+  "Mauritania": 100.0,
+  "Indonesia": 97.37704918032787,
+  "Nicaragua": 100.0,
+  "Myanmar": 86.66666666666667,
+  "Benin": 100.0,
+  "Ethiopia": 93.54838709677419,
+  "Honduras": 100.0,
+  "Japan": 98.37662337662337,
+  "Greece": 97.49303621169916,
+  "Lebanon": 98.86363636363636,
+  "Oman": 100.0,
+  "Lithuania": 98.91891891891892,
+  "Slovenia": 99.55947136563876,
+  "Uruguay": 100.0,
+  "Paraguay": 100.0,
+  "Haiti": 100.0,
+  "Bahrain": 100.0,
+  "Sweden": 98.95833333333334,
+  "Finland": 99.03381642512076,
+  "Lao People's Democratic Republic": 100.0,
+  "Cambodia": 85.71428571428571,
+  "Monaco": 100.0,
+  "Liechtenstein": 100.0,
+  "Yemen": 90.0,
+  "Angola": 100.0,
+  "Portugal": 98.96103896103897,
+  "France": 98.01023308698123,
+  "Estonia": 100.0,
+  "Chad": 100.0,
+  "Mali": 100.0,
+  "Norway": 98.33333333333333,
+  "Cameroon": 100.0,
+  "Djibouti": 0.0,
+  "Jamaica": 100.0,
+  "Malaysia": 98.97435897435898,
+  "Kuwait": 100.0,
+  "Saudi Arabia": 98.38709677419355,
+  "Ukraine": 97.96215429403202,
+  "Bolivia": 100.0,
+  "Italy": 98.89705882352942,
+  "Netherlands": 98.45814977973568,
+  "Turkmenistan": 100.0,
+  "Germany": 98.63336475023563,
+  "United Arab Emirates": 98.26086956521739,
+  "Antigua and Barbuda": 100.0,
+  "Costa Rica": 98.4126984126984,
+  "Switzerland": 98.42632331902719,
+  "Malta": 96.29629629629629,
+  "Senegal": 100.0,
+  "India": 96.62009914375845,
+  "Argentina": 97.9498861047836,
+  "Kyrgyzstan": 87.5,
+  "Barbados": 100.0,
+  "Bahamas": 100.0,
+  "Morocco": 98.73417721518987,
+  "Tajikistan": 75.0,
+  "Uganda": 98.21428571428571,
+  "Qatar": 100.0,
+  "Montenegro": 92.85714285714286,
+  "Zambia": 100.0,
+  "Tonga": 100.0,
+  "Mauritius": 100.0,
+  "Viet Nam": 96.35036496350365,
+  "Syrian Arab Republic": 94.11764705882352,
+  "Israel": 97.01298701298701,
+  "Serbia": 98.60627177700349,
+  "Kazakhstan": 100.0,
+  "San Marino": 0.0,
+  "Saint Vincent and the Grenadines": 100.0,
+  "Latvia": 100.0,
+  "United Kingdom": 98.74326750448833,
+  "Pakistan": 98.72,
+  "United States": 98.3913043478261,
+  "Russian Federation": 98.15809669992326,
+  "Belize": 100.0,
+  "Azerbaijan": 96.96969696969697,
+  "Bulgaria": 98.40319361277446,
+  "Guinea": 100.0,
+  "Mongolia": 100.0,
+  "Armenia": 95.8904109589041,
+  "Panama": 100.0,
+  "Nepal": 95.83333333333334,
+  "C\u00f4te d'Ivoire": 100.0,
+  "Spain": 98.11764705882354,
+  "Australia": 97.90648988136776,
+  "Bangladesh": 98.48101265822785,
+  "Other Country (Not Listed Above)": 95.40229885057471,
+  "Thailand": 99.21875,
+  "Democratic People's Republic of Korea": 50.0,
+  "Uzbekistan": 100.0,
+  "Fiji": 100.0,
+  "Timor-Leste": 100.0,
+  "Trinidad and Tobago": 100.0,
+  "Kenya": 99.27007299270073,
+  "Rwanda": 100.0,
+  "Iceland": 100.0,
+  "Belarus": 98.74213836477988,
+  "Belgium": 98.28571428571429,
+  "Canada": 98.5223642172524,
+  "South Korea": 98.0,
+  "Hong Kong (S.A.R.)": 98.4375,
+  "Poland": 97.97979797979798,
+  "Hungary": 98.91891891891892,
+  "Gabon": 100.0,
+  "Togo": 100.0,
+  "Colombia": 97.44680851063829,
+  "Republic of Korea": 94.73684210526315,
+  "Iran": 98.59649122807016,
+  "Ecuador": 98.30508474576271,
+  "Andorra": 100.0,
+  "New Zealand": 98.9873417721519,
+  "Afghanistan": 80.0
+}
+Q3.Generate a report for the average salary of developer based on continent
+
+Average salary of developer based on continent(in USD):
+ {
+  "North America": 227745.88386459104,
+  "Africa": 34767.60329861111,
+  "South America": 32967.58935698448,
+  "Asia": 37095.13775573466,
+  "Europe": 96913.69786396853,
+  "Oceania": 167614.5344467641
+} 
+
+Q4.Based on this survey, what will be the most desired programming language for the year 2020?
+
+Most desired language in 2020 is: JavaScript 
+
+Q5.What is the distribution of people who code as a hobby based on gender and continent?
+
+Distribution of people who code as a hobby is:
+ {
+  "North America": {
+    "Man": {
+      "Yes": 17798,
+      "No": 3864
+    },
+    "Woman": {
+      "Yes": 1515,
+      "No": 949
+    },
+    "Others": {
+      "Yes": 1097,
+      "No": 271
+    }
+  },
+  "Africa": {
+    "Man": {
+      "Yes": 1928,
+      "No": 493
+    },
+    "Woman": {
+      "Yes": 125,
+      "No": 69
+    },
+    "Others": {
+      "Yes": 110,
+      "No": 24
+    }
+  },
+  "South America": {
+    "Man": {
+      "Yes": 2493,
+      "No": 759
+    },
+    "Woman": {
+      "Yes": 108,
+      "No": 73
+    },
+    "Others": {
+      "Yes": 66,
+      "No": 23
+    }
+  },
+  "Asia": {
+    "Man": {
+      "Yes": 12692,
+      "No": 3347
+    },
+    "Woman": {
+      "Yes": 767,
+      "No": 418
+    },
+    "Others": {
+      "Yes": 1042,
+      "No": 306
+    }
+  },
+  "Europe": {
+    "Man": {
+      "Yes": 26831,
+      "No": 5452
+    },
+    "Woman": {
+      "Yes": 1405,
+      "No": 759
+    },
+    "Others": {
+      "Yes": 1167,
+      "No": 229
+    }
+  },
+  "Oceania": {
+    "Man": {
+      "Yes": 1800,
+      "No": 360
+    },
+    "Woman": {
+      "Yes": 100,
+      "No": 44
+    },
+    "Others": {
+      "Yes": 113,
+      "No": 17
+    }
+  }
+} 
+
+Q6.Generate the report for job and career satisfaction of developer based on their gender and continent?
+
+Job satisfaction is:
+ {
+  "North America": {
+    "Man": {
+      "Very satisfied": 7214,
+      "Slightly satisfied": 5900,
+      "Slightly dissatisfied": 2335,
+      "Neither satisfied nor dissatisfied": 1691,
+      "Very dissatisfied": 1083
+    },
+    "Woman": {
+      "Very satisfied": 890,
+      "Slightly satisfied": 584,
+      "Slightly dissatisfied": 252,
+      "Neither satisfied nor dissatisfied": 130,
+      "Very dissatisfied": 111
+    },
+    "Others": {
+      "Very satisfied": 350,
+      "Slightly satisfied": 319,
+      "Slightly dissatisfied": 157,
+      "Neither satisfied nor dissatisfied": 118,
+      "Very dissatisfied": 86
+    }
+  },
+  "Africa": {
+    "Man": {
+      "Slightly satisfied": 540,
+      "Very satisfied": 352,
+      "Slightly dissatisfied": 259,
+      "Neither satisfied nor dissatisfied": 242,
+      "Very dissatisfied": 137
+    },
+    "Woman": {
+      "Slightly satisfied": 30,
+      "Very satisfied": 29,
+      "Very dissatisfied": 21,
+      "Slightly dissatisfied": 19,
+      "Neither satisfied nor dissatisfied": 16
+    },
+    "Others": {
+      "Very satisfied": 16,
+      "Slightly satisfied": 15,
+      "Slightly dissatisfied": 14,
+      "Very dissatisfied": 10,
+      "Neither satisfied nor dissatisfied": 6
+    }
+  },
+  "South America": {
+    "Man": {
+      "Slightly satisfied": 908,
+      "Very satisfied": 675,
+      "Slightly dissatisfied": 526,
+      "Neither satisfied nor dissatisfied": 372,
+      "Very dissatisfied": 237
+    },
+    "Woman": {
+      "Slightly satisfied": 51,
+      "Very satisfied": 43,
+      "Slightly dissatisfied": 21,
+      "Neither satisfied nor dissatisfied": 20,
+      "Very dissatisfied": 11
+    },
+    "Others": {
+      "Slightly satisfied": 22,
+      "Neither satisfied nor dissatisfied": 13,
+      "Slightly dissatisfied": 11,
+      "Very satisfied": 9,
+      "Very dissatisfied": 6
+    }
+  },
+  "Asia": {
+    "Man": {
+      "Slightly satisfied": 4157,
+      "Very satisfied": 2571,
+      "Slightly dissatisfied": 2206,
+      "Neither satisfied nor dissatisfied": 2158,
+      "Very dissatisfied": 963
+    },
+    "Woman": {
+      "Slightly satisfied": 260,
+      "Very satisfied": 192,
+      "Neither satisfied nor dissatisfied": 144,
+      "Slightly dissatisfied": 131,
+      "Very dissatisfied": 72
+    },
+    "Others": {
+      "Slightly satisfied": 246,
+      "Very satisfied": 188,
+      "Neither satisfied nor dissatisfied": 177,
+      "Slightly dissatisfied": 109,
+      "Very dissatisfied": 94
+    }
+  },
+  "Europe": {
+    "Man": {
+      "Slightly satisfied": 9559,
+      "Very satisfied": 8289,
+      "Slightly dissatisfied": 4026,
+      "Neither satisfied nor dissatisfied": 3095,
+      "Very dissatisfied": 1711
+    },
+    "Woman": {
+      "Slightly satisfied": 573,
+      "Very satisfied": 571,
+      "Slightly dissatisfied": 269,
+      "Neither satisfied nor dissatisfied": 173,
+      "Very dissatisfied": 106
+    },
+    "Others": {
+      "Very satisfied": 329,
+      "Slightly satisfied": 311,
+      "Neither satisfied nor dissatisfied": 141,
+      "Slightly dissatisfied": 132,
+      "Very dissatisfied": 67
+    }
+  },
+  "Oceania": {
+    "Man": {
+      "Very satisfied": 641,
+      "Slightly satisfied": 631,
+      "Slightly dissatisfied": 242,
+      "Neither satisfied nor dissatisfied": 192,
+      "Very dissatisfied": 118
+    },
+    "Woman": {
+      "Slightly satisfied": 46,
+      "Very satisfied": 43,
+      "Slightly dissatisfied": 13,
+      "Neither satisfied nor dissatisfied": 9,
+      "Very dissatisfied": 8
+    },
+    "Others": {
+      "Very satisfied": 26,
+      "Slightly satisfied": 25,
+      "Slightly dissatisfied": 14,
+      "Neither satisfied nor dissatisfied": 14,
+      "Very dissatisfied": 5
+    }
+  }
+} 
+
+Career satisfaction is:
+ {
+  "North America": {
+    "Man": {
+      "Very satisfied": 9560,
+      "Slightly satisfied": 5683,
+      "Slightly dissatisfied": 1444,
+      "Neither satisfied nor dissatisfied": 1156,
+      "Very dissatisfied": 758
+    },
+    "Woman": {
+      "Very satisfied": 1018,
+      "Slightly satisfied": 636,
+      "Slightly dissatisfied": 186,
+      "Neither satisfied nor dissatisfied": 130,
+      "Very dissatisfied": 58
+    },
+    "Others": {
+      "Very satisfied": 459,
+      "Slightly satisfied": 336,
+      "Neither satisfied nor dissatisfied": 123,
+      "Slightly dissatisfied": 122,
+      "Very dissatisfied": 63
+    }
+  },
+  "Africa": {
+    "Man": {
+      "Very satisfied": 583,
+      "Slightly satisfied": 566,
+      "Neither satisfied nor dissatisfied": 212,
+      "Slightly dissatisfied": 184,
+      "Very dissatisfied": 126
+    },
+    "Woman": {
+      "Slightly satisfied": 41,
+      "Very satisfied": 41,
+      "Slightly dissatisfied": 19,
+      "Very dissatisfied": 15,
+      "Neither satisfied nor dissatisfied": 4
+    },
+    "Others": {
+      "Slightly satisfied": 20,
+      "Very satisfied": 19,
+      "Slightly dissatisfied": 15,
+      "Very dissatisfied": 13,
+      "Neither satisfied nor dissatisfied": 7
+    }
+  },
+  "South America": {
+    "Man": {
+      "Very satisfied": 960,
+      "Slightly satisfied": 958,
+      "Slightly dissatisfied": 345,
+      "Neither satisfied nor dissatisfied": 273,
+      "Very dissatisfied": 263
+    },
+    "Woman": {
+      "Slightly satisfied": 56,
+      "Very satisfied": 53,
+      "Slightly dissatisfied": 25,
+      "Neither satisfied nor dissatisfied": 13,
+      "Very dissatisfied": 7
+    },
+    "Others": {
+      "Slightly satisfied": 21,
+      "Very satisfied": 17,
+      "Neither satisfied nor dissatisfied": 14,
+      "Slightly dissatisfied": 7,
+      "Very dissatisfied": 6
+    }
+  },
+  "Asia": {
+    "Man": {
+      "Slightly satisfied": 4237,
+      "Very satisfied": 3798,
+      "Neither satisfied nor dissatisfied": 1868,
+      "Slightly dissatisfied": 1705,
+      "Very dissatisfied": 827
+    },
+    "Woman": {
+      "Slightly satisfied": 279,
+      "Very satisfied": 247,
+      "Neither satisfied nor dissatisfied": 134,
+      "Slightly dissatisfied": 124,
+      "Very dissatisfied": 51
+    },
+    "Others": {
+      "Very satisfied": 285,
+      "Slightly satisfied": 282,
+      "Neither satisfied nor dissatisfied": 181,
+      "Slightly dissatisfied": 104,
+      "Very dissatisfied": 93
+    }
+  },
+  "Europe": {
+    "Man": {
+      "Very satisfied": 10213,
+      "Slightly satisfied": 10141,
+      "Slightly dissatisfied": 2888,
+      "Neither satisfied nor dissatisfied": 2620,
+      "Very dissatisfied": 1229
+    },
+    "Woman": {
+      "Very satisfied": 677,
+      "Slightly satisfied": 621,
+      "Slightly dissatisfied": 178,
+      "Neither satisfied nor dissatisfied": 163,
+      "Very dissatisfied": 89
+    },
+    "Others": {
+      "Slightly satisfied": 377,
+      "Very satisfied": 334,
+      "Neither satisfied nor dissatisfied": 159,
+      "Slightly dissatisfied": 111,
+      "Very dissatisfied": 49
+    }
+  },
+  "Oceania": {
+    "Man": {
+      "Very satisfied": 797,
+      "Slightly satisfied": 655,
+      "Slightly dissatisfied": 184,
+      "Neither satisfied nor dissatisfied": 152,
+      "Very dissatisfied": 69
+    },
+    "Woman": {
+      "Slightly satisfied": 51,
+      "Very satisfied": 46,
+      "Neither satisfied nor dissatisfied": 13,
+      "Slightly dissatisfied": 7,
+      "Very dissatisfied": 4
+    },
+    "Others": {
+      "Very satisfied": 33,
+      "Slightly satisfied": 30,
+      "Neither satisfied nor dissatisfied": 15,
+      "Slightly dissatisfied": 9,
+      "Very dissatisfied": 7
+    }
+  }
+} 
+
+
+--- 4.431241273880005 seconds ---
