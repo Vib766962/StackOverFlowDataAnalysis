@@ -17,3 +17,6 @@ Q6.Generate the report for job and career satisfaction of developer based on the
 2. test.py: Includes test cases to automate the testing of the code for error conditions
 3. requirements.txt: Contains list of dependancies. Can be installed by using the command: "pip install -r ./requirements.txt"
 4. Sample_output.txt: Contains the sample output in text format for the 2019 Dataset
+
+<b>Note:</b>
+The dataset to run the code on is available at "https://drive.google.com/file/d/1QOmVDpd8hcVYqqUXDXf68UMDWQZP0wQV/view" as a file named: "survey_results_public.csv". This file must be downloaded and placed in the same folder as the python scripts for it to work
